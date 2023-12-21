@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webiste</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a9bde2b3fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>
+                UI/UX Designer
+            </p>
+            <h1>Hi, I'm <span>Raj Vardhan</span></h1>
+        </div> 
+    </div>
+ 
+</div>
+
+
+<!-------About----->
+
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/about.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    My name is Raj Vardhan. I am currently Pursuing B.Tech Degree is CSE with specialization in Bioinformatics.I would love to 
+                    
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    <p class="tab-links" onclick="opentab('experience/training')">Experience/Training</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML|CSS|Java-Script|Node-JS</span><br>Web Development</li>
+                        <li><span>C|C++|Java|Python</span><br>Programming Languages</li>
+                        <li><span>Python|Numpy|Pandas|Sckit-Learn</span><br>Machine Learning</li>
+                        <li><span>Flutter|Core Java</span><br>App Development</li>
+                        <li><span>UI\UX</span><br>Figma</li>
+                        <li><span>SQL Database|NOSQL</span><br>Cloud Computing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>10th Grade</span><br>92.6%</li>
+                        <li><span>12th Grade</span><br>87.8%</li>
+                        
+                        <li><span>VIT VELLORE</span><br>Currently in 3rd Year, maintaining 8.9 CGPA</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="achievements">
+                    <ul>
+                        <li><span>Participated in Hackathon</span><br>Designed a website to make studying interactive and helpful for students</li>
+                        <li><span>App Development </span><br>App for the betterment of the Health sector of the Nation</li>
+                        <li><span>Basketball</span><br>Played at National Level</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience/training">
+                    <ul>
+                        <li><span>PPD,part of Thermofisher Scientific</span><br>Learned about various analytical tools and its implementation.
+                        </li>
+                        <li><span>Google Cloud Internship</span><br>Learned about Google Cloud services and different methods of implementation</li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+<!------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                  <img src = "image/work-1.png">
+                  <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>the app conncets you to the talented people around the world</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+            </div>
+            <div class="work">
+                   <img src = "image/work-2.png">
+                   <div class="layer">
+                    <h3>Music App</h3>
+                    <p>the app conncets you to the talented people around the world</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+          </div>
+          <div class="work">
+                   <img src = "image/work-3.png">
+                   <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>the app conncets you to the talented people around the world</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+           </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!------contact------------------------------------------------>
+<div id="contact">
+    <div class="container">
+    
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>rajvardhan2913@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 6354320430</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/r_a_j_29/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/raj-vardhan-721ba8220/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/r_a_j_29"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="image/My CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form id="contactForm">
+                    <input type="text" name="Name" id="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" id="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" id= "Message" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright@Raj Vardhan</p>
+    </div>
+</div>
+
+<script> src="main.js"</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.left = "0";
+    }
+    function closemenu(){
+        sidemenu.style.left = "-200px";
+    }
+</script>
+</body>
+</html> 
